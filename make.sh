@@ -17,3 +17,4 @@ case $CLASS in
 esac
 $PLATEX $KANJI $TEX # platex コマンドの発行
 dvipdfmx $DVI # dvipdfmx コマンドの発行
+evince ${DVI}.pdf
